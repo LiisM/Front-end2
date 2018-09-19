@@ -1,0 +1,51 @@
+div#myDiv {
+    width: 200px;
+    height: 80px;
+    background-color: lightgreen;
+    border: 1px solid black;
+	margin-top: 75px;
+	margin-left: 50px;
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg); /* Standard syntax */
+}
+
+div#myDiv2 {
+    width: 200px;
+    height: 80px;
+    background-color: red;
+    border: 1px solid black;
+	margin-top: 75px;
+	margin-left: 50px;
+	-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 2s, transform 2s;
+}
+
+div#myDiv2:hover {
+    width: 300px;
+	height: 100px;
+	-ms-transform: scale(2,3);
+	-webkit-transform: scale(2,3); /* Safari */
+    transform: scale(2,3);
+}
+
+div#esimene {
+    width: 80px;
+    height: 50px;
+    background-color: none;
+    border: 1px solid black;
+	margin-top: 75px;
+	margin-left: 50px;
+}
+
+div#teine {
+	width: 80px;
+    height: 50px;
+    background-color: yellow;
+    border: 1px solid black;
+	margin-top: 75px;
+	margin-left: 50px;
+    -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Safari */
+    transform: rotate(30deg); /* Standard syntax */
+}
